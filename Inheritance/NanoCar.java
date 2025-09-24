@@ -1,0 +1,5 @@
+class NanoCar extends Vehicle{
+	
+	
+	
+}
