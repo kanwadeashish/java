@@ -2,12 +2,13 @@ class CreamRunner{
 	
 	public static void main(String[]args){
 		
-		Cake cake = new Cake(300,"Chocolate");
+		Cream cream = new Cream("Amul");
 		
-		Biscuit biscuit = new Biscuit(30,"Vanilla");
+		Cake cake = new Cake(300,"Chocolate",cream);
+		cake.displayCakeDetails();
 		
-		Cream cream = new Cream("Amul",cake,biscuit);
-		cream.displayDetails();
+		Biscuit biscuit = new Biscuit(30,"Vanilla",cream);
+		biscuit.displayBiscuitDetails();
 		
 	}
 	
