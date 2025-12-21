@@ -1,0 +1,13 @@
+package com.xworkz.association.internal;
+
+public class Sand {
+
+    public int numberOfTons;
+
+    public Sand(int numberOfTons){
+
+        this.numberOfTons=numberOfTons;
+
+    }
+
+}
